@@ -14,6 +14,7 @@
 		193073C512383FE936DD8529 /* Perception in Frameworks */ = {isa = PBXBuildFile; productRef = C3474E2E9783CF1345567922 /* Perception */; };
 		36DEB3E1CD0433238AB9321D /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3795C5DD9D7CA859C3104F3 /* TaskDetailView.swift */; };
 		48E42B8718A833F7F170BCCD /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E4BF5D5B82BF0F1326D85 /* AppFeature.swift */; };
+		53344EC2FC38BF69DA2C9F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859A149F861EABAE9C140B8D /* Assets.xcassets */; };
 		5A7DBA2BF9CD3DC7831655FD /* SivonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA804F520EB468D5265DC9 /* SivonApp.swift */; };
 		6A532150A9214B48773ABCB5 /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = D197F4430F68AFF26AA2211C /* CasePaths */; };
 		70BBFE5847069572E41F82E5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EC879E4402E04D8D626D8066 /* ComposableArchitecture */; };
@@ -21,10 +22,13 @@
 		7CBC85B7496219C0F0B18B1C /* Perception in Frameworks */ = {isa = PBXBuildFile; productRef = 824B10CA89AC68752D061CC2 /* Perception */; };
 		815B21CB5135ADDCA2BCECCA /* PerceptionCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4F19B87324F5FAA2774C19C8 /* PerceptionCore */; };
 		8BB78F7E4D30DBE837C3D60E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FC1EF1EDFE01F46CC82FAADD /* ComposableArchitecture */; };
+		923ECC172845B63D0FADE4C4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B3683AAA777A5FF2458A3 /* SettingsView.swift */; };
+		9472A5767744A598BE41F780 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8AD492AE290DA352AC950 /* AppLanguage.swift */; };
 		A2F93CF01991E8FDA88865CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C083CE2E6342C15C3CA4E30 /* ContentView.swift */; };
 		A35FA5FB7AC844BD7D1D049C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60E193BC6C709D48695CA2C /* SidebarView.swift */; };
 		B4633EF6840612C200085116 /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = F6F2F2B5D808B254548E04AA /* CasePaths */; };
 		CA3D8CAC44EC491A868AB2AE /* TaskDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BCDA87038F22FD6B1BEFA9 /* TaskDomain.swift */; };
+		CC0730A9C1B3480BFC152E09 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 308D0A0F7BFC8B362F93AAFC /* Localizable.xcstrings */; };
 		F080D27DEC7DCEDC80731ABB /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0430C177BCB72678A3FADA8 /* Style.swift */; };
 		FE51EFA02283BDD5904A5D57 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 22D64D81FC1727DC7F0B2BDA /* Dependencies */; };
 /* End PBXBuildFile section */
@@ -45,13 +49,17 @@
 		29ED6870AF3B037680F157E5 /* TaskDomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDomainTests.swift; sourceTree = "<group>"; };
 		2AF13AABB9C11C150808AA07 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		2DFCB75B8687B7A692B2F6CF /* SivonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SivonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		308D0A0F7BFC8B362F93AAFC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		58375C5436B5DE525C8EA6A3 /* Sivon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sivon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5B3683AAA777A5FF2458A3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7BCB60501026D266B27F7808 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7C083CE2E6342C15C3CA4E30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		859A149F861EABAE9C140B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3795C5DD9D7CA859C3104F3 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 		C8BCDA87038F22FD6B1BEFA9 /* TaskDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDomain.swift; sourceTree = "<group>"; };
 		E0430C177BCB72678A3FADA8 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		E60E193BC6C709D48695CA2C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		E9B8AD492AE290DA352AC950 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		AAB3A6356CA26042802F3D03 = {
 			isa = PBXGroup;
 			children = (
+				D935E5A80A4F774B438A71C2 /* Resources */,
 				C3234CFFBA31FACE16B4BC30 /* Sivon */,
 				F00038D979D681C8138AA616 /* SivonTests */,
 				3AA49A6FE30A356F7FDF298A /* Products */,
@@ -104,8 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				138E4BF5D5B82BF0F1326D85 /* AppFeature.swift */,
+				E9B8AD492AE290DA352AC950 /* AppLanguage.swift */,
 				7C083CE2E6342C15C3CA4E30 /* ContentView.swift */,
 				7BCB60501026D266B27F7808 /* Persistence.swift */,
+				6B5B3683AAA777A5FF2458A3 /* SettingsView.swift */,
 				E60E193BC6C709D48695CA2C /* SidebarView.swift */,
 				1FDA804F520EB468D5265DC9 /* SivonApp.swift */,
 				E0430C177BCB72678A3FADA8 /* Style.swift */,
@@ -115,6 +126,15 @@
 			);
 			name = Sivon;
 			path = Sources/Sivon;
+			sourceTree = "<group>";
+		};
+		D935E5A80A4F774B438A71C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				859A149F861EABAE9C140B8D /* Assets.xcassets */,
+				308D0A0F7BFC8B362F93AAFC /* Localizable.xcstrings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F00038D979D681C8138AA616 /* SivonTests */ = {
@@ -134,6 +154,7 @@
 			buildConfigurationList = 02010DA8223C55A545E60443 /* Build configuration list for PBXNativeTarget "Sivon" */;
 			buildPhases = (
 				ADADB5947C15A28636BD6519 /* Sources */,
+				950171A21578036A19C93B70 /* Resources */,
 				F963FE0B8D52240C975C1A98 /* Frameworks */,
 			);
 			buildRules = (
@@ -197,6 +218,7 @@
 			knownRegions = (
 				Base,
 				en,
+				ja,
 			);
 			mainGroup = AAB3A6356CA26042802F3D03;
 			minimizedProjectReferenceProxies = 1;
@@ -216,6 +238,18 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		950171A21578036A19C93B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53344EC2FC38BF69DA2C9F8A /* Assets.xcassets in Resources */,
+				CC0730A9C1B3480BFC152E09 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		098415EC04CC89F213AB55B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -230,8 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48E42B8718A833F7F170BCCD /* AppFeature.swift in Sources */,
+				9472A5767744A598BE41F780 /* AppLanguage.swift in Sources */,
 				A2F93CF01991E8FDA88865CA /* ContentView.swift in Sources */,
 				1478275DF96B2325DAAA5F8B /* Persistence.swift in Sources */,
+				923ECC172845B63D0FADE4C4 /* SettingsView.swift in Sources */,
 				A35FA5FB7AC844BD7D1D049C /* SidebarView.swift in Sources */,
 				5A7DBA2BF9CD3DC7831655FD /* SivonApp.swift in Sources */,
 				F080D27DEC7DCEDC80731ABB /* Style.swift in Sources */,

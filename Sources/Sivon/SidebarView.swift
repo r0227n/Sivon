@@ -38,6 +38,14 @@ struct SidebarView: View {
             .listStyle(.sidebar)
 
             Spacer()
+
+            SettingsLink {
+                Label("Settings", systemImage: "gearshape")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .buttonStyle(.plain)
+            .padding(.horizontal, 12)
+            .padding(.bottom, 16)
         }
         .background(Color.sivonBackground)
         .navigationSplitViewColumnWidth(min: 220, ideal: 250, max: 300)

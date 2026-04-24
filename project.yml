@@ -23,8 +23,8 @@ targets:
     deploymentTarget: "14.0"
     sources:
       - path: Sources/Sivon
-    resources:
       - path: Resources
+        buildPhase: resources
     dependencies:
       - package: ComposableArchitecture
         product: ComposableArchitecture

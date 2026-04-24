@@ -45,7 +45,7 @@ struct TaskListView: View {
         VStack(alignment: .leading, spacing: 4) {
             selectedFilterTitle
                 .font(.system(size: 22, weight: .semibold))
-            Text(Date.now.formatted(.dateTime.year().month(.wide).day().weekday(.wide)))
+            Text(Date.now, format: .dateTime.year().month(.wide).day().weekday(.wide))
                 .font(.system(size: 13))
                 .foregroundStyle(.secondary)
         }

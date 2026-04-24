@@ -62,16 +62,46 @@
         "ja" : { "stringUnit" : { "state" : "translated", "value" : "期限日" } }
       }
     },
+    "English" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "English" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "英語" } }
+      }
+    },
     "Enter a task title before saving." : {
       "localizations" : {
         "en" : { "stringUnit" : { "state" : "translated", "value" : "Enter a task title before saving." } },
         "ja" : { "stringUnit" : { "state" : "translated", "value" : "保存する前にタスク名を入力してください。" } }
       }
     },
+    "Changing the language updates the app immediately." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Changing the language updates the app immediately." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "言語の変更はすぐにアプリへ反映されます。" } }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "General" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "一般" } }
+      }
+    },
     "Incomplete" : {
       "localizations" : {
         "en" : { "stringUnit" : { "state" : "translated", "value" : "Incomplete" } },
         "ja" : { "stringUnit" : { "state" : "translated", "value" : "未完了" } }
+      }
+    },
+    "Japanese" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Japanese" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "日本語" } }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Language" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "言語" } }
       }
     },
     "Mark complete" : {
@@ -122,6 +152,18 @@
         "ja" : { "stringUnit" : { "state" : "translated", "value" : "OK" } }
       }
     },
+    "OSS Licenses" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OSS Licenses" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "OSSライセンス" } }
+      }
+    },
+    "Open repository" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open repository" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "リポジトリを開く" } }
+      }
+    },
     "Overdue" : {
       "localizations" : {
         "en" : { "stringUnit" : { "state" : "translated", "value" : "Overdue" } },
@@ -140,10 +182,22 @@
         "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスクを選択" } }
       }
     },
+    "Settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "設定" } }
+      }
+    },
     "Status" : {
       "localizations" : {
         "en" : { "stringUnit" : { "state" : "translated", "value" : "Status" } },
         "ja" : { "stringUnit" : { "state" : "translated", "value" : "ステータス" } }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "System" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "システム設定" } }
       }
     },
     "Task title" : {
