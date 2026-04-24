@@ -97,19 +97,49 @@ private struct OSSLicenseItem: Identifiable {
     var id: String { name }
 
     static let all: [OSSLicenseItem] = [
-        .init(name: "combine-schedulers", version: "1.2.0", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/combine-schedulers")!),
-        .init(name: "swift-case-paths", version: "1.7.3", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-case-paths")!),
-        .init(name: "swift-clocks", version: "1.0.6", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-clocks")!),
-        .init(name: "swift-collections", version: "1.4.1", license: "Apache License 2.0", repositoryURL: URL(string: "https://github.com/apple/swift-collections")!),
-        .init(name: "swift-composable-architecture", version: "1.25.5", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-composable-architecture")!),
-        .init(name: "swift-concurrency-extras", version: "1.3.2", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-concurrency-extras")!),
-        .init(name: "swift-custom-dump", version: "1.5.0", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-custom-dump")!),
-        .init(name: "swift-dependencies", version: "1.12.0", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-dependencies")!),
-        .init(name: "swift-identified-collections", version: "1.1.1", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-identified-collections")!),
-        .init(name: "swift-navigation", version: "2.8.0", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-navigation")!),
-        .init(name: "swift-perception", version: "2.0.10", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-perception")!),
-        .init(name: "swift-sharing", version: "2.8.0", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/swift-sharing")!),
-        .init(name: "swift-syntax", version: "603.0.1", license: "Apache License 2.0", repositoryURL: URL(string: "https://github.com/swiftlang/swift-syntax")!),
-        .init(name: "xctest-dynamic-overlay", version: "1.9.0", license: "MIT License", repositoryURL: URL(string: "https://github.com/pointfreeco/xctest-dynamic-overlay")!)
+        .init(
+            name: "combine-schedulers", version: "1.2.0", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/combine-schedulers")!),
+        .init(
+            name: "swift-case-paths", version: "1.7.3", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-case-paths")!),
+        .init(
+            name: "swift-clocks", version: "1.0.6", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-clocks")!),
+        .init(
+            name: "swift-collections", version: "1.4.1", license: "Apache License 2.0",
+            repositoryURL: URL(string: "https://github.com/apple/swift-collections")!),
+        .init(
+            name: "swift-composable-architecture", version: "1.25.5", license: "MIT License",
+            repositoryURL: URL(
+                string: "https://github.com/pointfreeco/swift-composable-architecture")!),
+        .init(
+            name: "swift-concurrency-extras", version: "1.3.2", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-concurrency-extras")!),
+        .init(
+            name: "swift-custom-dump", version: "1.5.0", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-custom-dump")!),
+        .init(
+            name: "swift-dependencies", version: "1.12.0", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-dependencies")!),
+        .init(
+            name: "swift-identified-collections", version: "1.1.1", license: "MIT License",
+            repositoryURL: URL(
+                string: "https://github.com/pointfreeco/swift-identified-collections")!),
+        .init(
+            name: "swift-navigation", version: "2.8.0", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-navigation")!),
+        .init(
+            name: "swift-perception", version: "2.0.10", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-perception")!),
+        .init(
+            name: "swift-sharing", version: "2.8.0", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/swift-sharing")!),
+        .init(
+            name: "swift-syntax", version: "603.0.1", license: "Apache License 2.0",
+            repositoryURL: URL(string: "https://github.com/swiftlang/swift-syntax")!),
+        .init(
+            name: "xctest-dynamic-overlay", version: "1.9.0", license: "MIT License",
+            repositoryURL: URL(string: "https://github.com/pointfreeco/xctest-dynamic-overlay")!),
     ]
 }

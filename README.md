@@ -16,4 +16,11 @@ Build and test from the command line:
 xcodebuild -project Sivon.xcodeproj -scheme Sivon -destination 'platform=macOS' -skipMacroValidation CODE_SIGNING_ALLOWED=NO test
 ```
 
+Format and lint Swift sources:
+
+```sh
+mise run format
+mise run lint
+```
+
 The app uses SwiftUI, TCA, SwiftData, and `Resources/Localizable.xcstrings` for English and Japanese localization.

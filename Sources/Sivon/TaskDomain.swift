@@ -59,7 +59,8 @@ enum TaskFilter: String, CaseIterable, Equatable, Identifiable {
             return true
         case .overdue:
             guard let dueDate = task.dueDate else { return false }
-            return !task.isCompleted && calendar.startOfDay(for: dueDate) < calendar.startOfDay(for: today)
+            return !task.isCompleted
+                && calendar.startOfDay(for: dueDate) < calendar.startOfDay(for: today)
         case .completed:
             return task.isCompleted
         }
@@ -95,7 +96,7 @@ enum DueDateChoice: Equatable {
             return calendar.date(byAdding: .day, value: 1, to: calendar.startOfDay(for: baseDate))
         case .nextWeek:
             return calendar.date(byAdding: .day, value: 7, to: calendar.startOfDay(for: baseDate))
-        case let .custom(date):
+        case .custom(let date):
             return calendar.startOfDay(for: date)
         case .none:
             return nil
@@ -126,7 +127,7 @@ func isTaskOverdue(_ task: TodoTask, today: Date = Date(), calendar: Calendar = 
 
 private func compareByDueDateThenCreatedAt(_ lhs: TodoTask, _ rhs: TodoTask) -> Bool {
     switch (lhs.dueDate, rhs.dueDate) {
-    case let (lhsDate?, rhsDate?) where lhsDate != rhsDate:
+    case (let lhsDate?, let rhsDate?) where lhsDate != rhsDate:
         return lhsDate < rhsDate
     case (nil, _?):
         return false

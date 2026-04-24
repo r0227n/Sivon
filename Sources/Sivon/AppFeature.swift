@@ -66,23 +66,26 @@ struct AppFeature {
                     }
                 }
 
-            case let .tasksLoaded(tasks):
+            case .tasksLoaded(let tasks):
                 state.tasks = tasks
                 if let selectedTaskID = state.selectedTaskID,
-                   !state.tasks.contains(where: { $0.id == selectedTaskID }) {
+                    !state.tasks.contains(where: { $0.id == selectedTaskID })
+                {
                     state.selectedTaskID = nil
                 }
                 return .none
 
             case .createTaskSubmitted:
-                let trimmedTitle = state.newTaskTitle.trimmingCharacters(in: .whitespacesAndNewlines)
+                let trimmedTitle = state.newTaskTitle.trimmingCharacters(
+                    in: .whitespacesAndNewlines)
                 guard !trimmedTitle.isEmpty else {
                     state.userMessage = .titleRequired
                     return .none
                 }
 
                 let now = Date()
-                let dueDate = state.selectedFilter == .today ? Calendar.current.startOfDay(for: now) : nil
+                let dueDate =
+                    state.selectedFilter == .today ? Calendar.current.startOfDay(for: now) : nil
                 let task = TodoTask(title: trimmedTitle, dueDate: dueDate, createdAt: now)
 
                 state.tasks.append(task)
@@ -91,25 +94,29 @@ struct AppFeature {
                 state.userMessage = nil
                 return persist(task)
 
-            case let .selectTask(id):
+            case .selectTask(let id):
                 state.selectedTaskID = id
                 return .none
 
-            case let .toggleCompletion(id):
-                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else { return .none }
+            case .toggleCompletion(let id):
+                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else {
+                    return .none
+                }
                 var task = state.tasks[index]
                 task.isCompleted.toggle()
                 task.updatedAt = Date()
                 state.tasks[index] = task
                 return persist(task)
 
-            case let .updateTitle(id, title):
+            case .updateTitle(let id, let title):
                 let trimmedTitle = title.trimmingCharacters(in: .whitespacesAndNewlines)
                 guard !trimmedTitle.isEmpty else {
                     state.userMessage = .titleRequired
                     return .none
                 }
-                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else { return .none }
+                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else {
+                    return .none
+                }
                 var task = state.tasks[index]
                 guard task.title != trimmedTitle else { return .none }
                 task.title = trimmedTitle
@@ -118,8 +125,10 @@ struct AppFeature {
                 state.userMessage = nil
                 return persist(task)
 
-            case let .updateNotes(id, notes):
-                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else { return .none }
+            case .updateNotes(let id, let notes):
+                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else {
+                    return .none
+                }
                 var task = state.tasks[index]
                 guard task.notes != notes else { return .none }
                 task.notes = notes
@@ -127,15 +136,17 @@ struct AppFeature {
                 state.tasks[index] = task
                 return persist(task)
 
-            case let .setDueDate(id, choice):
-                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else { return .none }
+            case .setDueDate(let id, let choice):
+                guard let index = state.tasks.firstIndex(where: { $0.id == id }) else {
+                    return .none
+                }
                 var task = state.tasks[index]
                 task.dueDate = choice.date(relativeTo: Date(), calendar: .current)
                 task.updatedAt = Date()
                 state.tasks[index] = task
                 return persist(task)
 
-            case let .requestDelete(id):
+            case .requestDelete(let id):
                 state.deleteCandidateID = id
                 return .none
 

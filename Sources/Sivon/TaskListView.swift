@@ -109,7 +109,8 @@ private struct TaskRowView: View {
             } label: {
                 Image(systemName: task.isCompleted ? "checkmark.circle.fill" : "circle")
                     .font(.system(size: 18, weight: .medium))
-                    .foregroundStyle(task.isCompleted ? Color.sivonSuccess : Color.sivonSecondaryText)
+                    .foregroundStyle(
+                        task.isCompleted ? Color.sivonSuccess : Color.sivonSecondaryText)
             }
             .buttonStyle(.plain)
             .accessibilityLabel(task.isCompleted ? "Mark incomplete" : "Mark complete")

@@ -1,0 +1,7 @@
+[tasks.format]
+description = "Format Swift sources"
+run = "swift-format format --in-place --recursive --parallel Sources Tests"
+
+[tasks.lint]
+description = "Lint Swift sources"
+run = "swift-format lint --strict --recursive --parallel Sources Tests"

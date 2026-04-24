@@ -28,7 +28,9 @@ struct TaskDetailView: View {
                 Button {
                     store.send(.toggleCompletion(task.id))
                 } label: {
-                    Label(task.isCompleted ? "Completed" : "Incomplete", systemImage: task.isCompleted ? "checkmark.circle.fill" : "circle")
+                    Label(
+                        task.isCompleted ? "Completed" : "Incomplete",
+                        systemImage: task.isCompleted ? "checkmark.circle.fill" : "circle")
                 }
                 .buttonStyle(.borderless)
 
