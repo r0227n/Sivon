@@ -1,0 +1,181 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add a task..." : {
+      "comment" : "Placeholder for the inline task creation field.",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add a task..." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスクを追加..." } }
+      }
+    },
+    "Add a task or switch views." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add a task or switch views." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスクを追加するか、ビューを切り替えてください。" } }
+      }
+    },
+    "All Tasks" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "All Tasks" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "すべて" } }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "キャンセル" } }
+      }
+    },
+    "Choose a task from the list or create a new one." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose a task from the list or create a new one." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "一覧からタスクを選択するか、新しいタスクを作成してください。" } }
+      }
+    },
+    "Completed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Completed" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "完了" } }
+      }
+    },
+    "Could not save changes" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Could not save changes" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "変更を保存できませんでした" } }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "削除" } }
+      }
+    },
+    "Delete task?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete task?" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスクを削除しますか？" } }
+      }
+    },
+    "Due Date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Due Date" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "期限日" } }
+      }
+    },
+    "Enter a task title before saving." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enter a task title before saving." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "保存する前にタスク名を入力してください。" } }
+      }
+    },
+    "Incomplete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Incomplete" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "未完了" } }
+      }
+    },
+    "Mark complete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mark complete" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "完了にする" } }
+      }
+    },
+    "Mark incomplete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mark incomplete" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "未完了に戻す" } }
+      }
+    },
+    "Next Week" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Next Week" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "来週" } }
+      }
+    },
+    "No Date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No Date" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "日付なし" } }
+      }
+    },
+    "No date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No date" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "日付なし" } }
+      }
+    },
+    "No tasks" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No tasks" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスクはありません" } }
+      }
+    },
+    "Notes" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notes" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "メモ" } }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "OK" } }
+      }
+    },
+    "Overdue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Overdue" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "期限切れ" } }
+      }
+    },
+    "Reloaded local data to keep the task list consistent." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reloaded local data to keep the task list consistent." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスク一覧の整合性を保つため、ローカルデータを再読み込みしました。" } }
+      }
+    },
+    "Select a task" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Select a task" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスクを選択" } }
+      }
+    },
+    "Status" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Status" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ステータス" } }
+      }
+    },
+    "Task title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task title" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスク名" } }
+      }
+    },
+    "This task will be permanently deleted." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This task will be permanently deleted." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "このタスクは完全に削除されます。" } }
+      }
+    },
+    "Title is required" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Title is required" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タスク名が必要です" } }
+      }
+    },
+    "Today" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "今日" } }
+      }
+    },
+    "Tomorrow" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tomorrow" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "明日" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

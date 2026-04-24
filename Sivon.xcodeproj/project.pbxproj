@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A8096E606C7BD8A5490993 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF13AABB9C11C150808AA07 /* TaskListView.swift */; };
+		03F3878A6C78493F26C3514A /* PerceptionCore in Frameworks */ = {isa = PBXBuildFile; productRef = DD271BE9D3D3B09268E12D9C /* PerceptionCore */; };
+		0484DCE676CFBA7C30A397DF /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 09D0FDC9502B20B77CDBE4AD /* Dependencies */; };
+		1478275DF96B2325DAAA5F8B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCB60501026D266B27F7808 /* Persistence.swift */; };
+		193073C512383FE936DD8529 /* Perception in Frameworks */ = {isa = PBXBuildFile; productRef = C3474E2E9783CF1345567922 /* Perception */; };
+		36DEB3E1CD0433238AB9321D /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3795C5DD9D7CA859C3104F3 /* TaskDetailView.swift */; };
+		48E42B8718A833F7F170BCCD /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E4BF5D5B82BF0F1326D85 /* AppFeature.swift */; };
+		5A7DBA2BF9CD3DC7831655FD /* SivonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA804F520EB468D5265DC9 /* SivonApp.swift */; };
+		6A532150A9214B48773ABCB5 /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = D197F4430F68AFF26AA2211C /* CasePaths */; };
+		70BBFE5847069572E41F82E5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EC879E4402E04D8D626D8066 /* ComposableArchitecture */; };
+		7829CCA12FB7DE37FCDF8D12 /* TaskDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED6870AF3B037680F157E5 /* TaskDomainTests.swift */; };
+		7CBC85B7496219C0F0B18B1C /* Perception in Frameworks */ = {isa = PBXBuildFile; productRef = 824B10CA89AC68752D061CC2 /* Perception */; };
+		815B21CB5135ADDCA2BCECCA /* PerceptionCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4F19B87324F5FAA2774C19C8 /* PerceptionCore */; };
+		8BB78F7E4D30DBE837C3D60E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FC1EF1EDFE01F46CC82FAADD /* ComposableArchitecture */; };
+		A2F93CF01991E8FDA88865CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C083CE2E6342C15C3CA4E30 /* ContentView.swift */; };
+		A35FA5FB7AC844BD7D1D049C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60E193BC6C709D48695CA2C /* SidebarView.swift */; };
+		B4633EF6840612C200085116 /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = F6F2F2B5D808B254548E04AA /* CasePaths */; };
+		CA3D8CAC44EC491A868AB2AE /* TaskDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BCDA87038F22FD6B1BEFA9 /* TaskDomain.swift */; };
+		F080D27DEC7DCEDC80731ABB /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0430C177BCB72678A3FADA8 /* Style.swift */; };
+		FE51EFA02283BDD5904A5D57 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 22D64D81FC1727DC7F0B2BDA /* Dependencies */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656091338CCAD9BC6AE83FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CF25D7A062C305642E3629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F7FC3E7439E51CA47291CE7;
+			remoteInfo = Sivon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		138E4BF5D5B82BF0F1326D85 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		1FDA804F520EB468D5265DC9 /* SivonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SivonApp.swift; sourceTree = "<group>"; };
+		29ED6870AF3B037680F157E5 /* TaskDomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDomainTests.swift; sourceTree = "<group>"; };
+		2AF13AABB9C11C150808AA07 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		2DFCB75B8687B7A692B2F6CF /* SivonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SivonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58375C5436B5DE525C8EA6A3 /* Sivon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sivon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCB60501026D266B27F7808 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7C083CE2E6342C15C3CA4E30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3795C5DD9D7CA859C3104F3 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		C8BCDA87038F22FD6B1BEFA9 /* TaskDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDomain.swift; sourceTree = "<group>"; };
+		E0430C177BCB72678A3FADA8 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		E60E193BC6C709D48695CA2C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D699B7CF6D78E3DCCEF3A78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BBFE5847069572E41F82E5 /* ComposableArchitecture in Frameworks */,
+				B4633EF6840612C200085116 /* CasePaths in Frameworks */,
+				0484DCE676CFBA7C30A397DF /* Dependencies in Frameworks */,
+				193073C512383FE936DD8529 /* Perception in Frameworks */,
+				03F3878A6C78493F26C3514A /* PerceptionCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F963FE0B8D52240C975C1A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB78F7E4D30DBE837C3D60E /* ComposableArchitecture in Frameworks */,
+				6A532150A9214B48773ABCB5 /* CasePaths in Frameworks */,
+				FE51EFA02283BDD5904A5D57 /* Dependencies in Frameworks */,
+				7CBC85B7496219C0F0B18B1C /* Perception in Frameworks */,
+				815B21CB5135ADDCA2BCECCA /* PerceptionCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA49A6FE30A356F7FDF298A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58375C5436B5DE525C8EA6A3 /* Sivon.app */,
+				2DFCB75B8687B7A692B2F6CF /* SivonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB3A6356CA26042802F3D03 = {
+			isa = PBXGroup;
+			children = (
+				C3234CFFBA31FACE16B4BC30 /* Sivon */,
+				F00038D979D681C8138AA616 /* SivonTests */,
+				3AA49A6FE30A356F7FDF298A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3234CFFBA31FACE16B4BC30 /* Sivon */ = {
+			isa = PBXGroup;
+			children = (
+				138E4BF5D5B82BF0F1326D85 /* AppFeature.swift */,
+				7C083CE2E6342C15C3CA4E30 /* ContentView.swift */,
+				7BCB60501026D266B27F7808 /* Persistence.swift */,
+				E60E193BC6C709D48695CA2C /* SidebarView.swift */,
+				1FDA804F520EB468D5265DC9 /* SivonApp.swift */,
+				E0430C177BCB72678A3FADA8 /* Style.swift */,
+				B3795C5DD9D7CA859C3104F3 /* TaskDetailView.swift */,
+				C8BCDA87038F22FD6B1BEFA9 /* TaskDomain.swift */,
+				2AF13AABB9C11C150808AA07 /* TaskListView.swift */,
+			);
+			name = Sivon;
+			path = Sources/Sivon;
+			sourceTree = "<group>";
+		};
+		F00038D979D681C8138AA616 /* SivonTests */ = {
+			isa = PBXGroup;
+			children = (
+				29ED6870AF3B037680F157E5 /* TaskDomainTests.swift */,
+			);
+			name = SivonTests;
+			path = Tests/SivonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F7FC3E7439E51CA47291CE7 /* Sivon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02010DA8223C55A545E60443 /* Build configuration list for PBXNativeTarget "Sivon" */;
+			buildPhases = (
+				ADADB5947C15A28636BD6519 /* Sources */,
+				F963FE0B8D52240C975C1A98 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sivon;
+			packageProductDependencies = (
+				FC1EF1EDFE01F46CC82FAADD /* ComposableArchitecture */,
+				D197F4430F68AFF26AA2211C /* CasePaths */,
+				22D64D81FC1727DC7F0B2BDA /* Dependencies */,
+				824B10CA89AC68752D061CC2 /* Perception */,
+				4F19B87324F5FAA2774C19C8 /* PerceptionCore */,
+			);
+			productName = Sivon;
+			productReference = 58375C5436B5DE525C8EA6A3 /* Sivon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F74863EAA59A61C60F2748FD /* SivonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10206DAC5EB0B487DD145607 /* Build configuration list for PBXNativeTarget "SivonTests" */;
+			buildPhases = (
+				098415EC04CC89F213AB55B9 /* Sources */,
+				D699B7CF6D78E3DCCEF3A78D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B012BA2619CEC8C23B5CFCD8 /* PBXTargetDependency */,
+			);
+			name = SivonTests;
+			packageProductDependencies = (
+				EC879E4402E04D8D626D8066 /* ComposableArchitecture */,
+				F6F2F2B5D808B254548E04AA /* CasePaths */,
+				09D0FDC9502B20B77CDBE4AD /* Dependencies */,
+				C3474E2E9783CF1345567922 /* Perception */,
+				DD271BE9D3D3B09268E12D9C /* PerceptionCore */,
+			);
+			productName = SivonTests;
+			productReference = 2DFCB75B8687B7A692B2F6CF /* SivonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8CF25D7A062C305642E3629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9F7FC3E7439E51CA47291CE7 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8B742E8617C9F509F1D2E59 /* Build configuration list for PBXProject "Sivon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AAB3A6356CA26042802F3D03;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78B0379B68A56E5941DB66CD /* XCRemoteSwiftPackageReference "swift-case-paths" */,
+				606CCED4A038F9B30023947C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				CE84DDCF08C83A94B1085E10 /* XCRemoteSwiftPackageReference "swift-dependencies" */,
+				B10495A8FF91019C9B295433 /* XCRemoteSwiftPackageReference "swift-perception" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F7FC3E7439E51CA47291CE7 /* Sivon */,
+				F74863EAA59A61C60F2748FD /* SivonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098415EC04CC89F213AB55B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7829CCA12FB7DE37FCDF8D12 /* TaskDomainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADADB5947C15A28636BD6519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E42B8718A833F7F170BCCD /* AppFeature.swift in Sources */,
+				A2F93CF01991E8FDA88865CA /* ContentView.swift in Sources */,
+				1478275DF96B2325DAAA5F8B /* Persistence.swift in Sources */,
+				A35FA5FB7AC844BD7D1D049C /* SidebarView.swift in Sources */,
+				5A7DBA2BF9CD3DC7831655FD /* SivonApp.swift in Sources */,
+				F080D27DEC7DCEDC80731ABB /* Style.swift in Sources */,
+				36DEB3E1CD0433238AB9321D /* TaskDetailView.swift in Sources */,
+				CA3D8CAC44EC491A868AB2AE /* TaskDomain.swift in Sources */,
+				03A8096E606C7BD8A5490993 /* TaskListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B012BA2619CEC8C23B5CFCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F7FC3E7439E51CA47291CE7 /* Sivon */;
+			targetProxy = 656091338CCAD9BC6AE83FFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		734119C39C9B552D6BB1C950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sivon.mac.tests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sivon.app/Contents/MacOS/Sivon";
+			};
+			name = Debug;
+		};
+		80FCC3F87A6D4615A273ACA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleDisplayName = Sivon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sivon.mac;
+				PRODUCT_NAME = Sivon;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		85BAAA48321639FAB2EB4292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		870654F78776375E92434B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleDisplayName = Sivon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sivon.mac;
+				PRODUCT_NAME = Sivon;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C469EAE2ED3B81E36A64165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB386E05A3B7653D6FBB1E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sivon.mac.tests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sivon.app/Contents/MacOS/Sivon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02010DA8223C55A545E60443 /* Build configuration list for PBXNativeTarget "Sivon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870654F78776375E92434B7B /* Debug */,
+				80FCC3F87A6D4615A273ACA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		10206DAC5EB0B487DD145607 /* Build configuration list for PBXNativeTarget "SivonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734119C39C9B552D6BB1C950 /* Debug */,
+				BB386E05A3B7653D6FBB1E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8B742E8617C9F509F1D2E59 /* Build configuration list for PBXProject "Sivon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C469EAE2ED3B81E36A64165 /* Debug */,
+				85BAAA48321639FAB2EB4292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		606CCED4A038F9B30023947C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.25.0;
+			};
+		};
+		78B0379B68A56E5941DB66CD /* XCRemoteSwiftPackageReference "swift-case-paths" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-case-paths";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+		B10495A8FF91019C9B295433 /* XCRemoteSwiftPackageReference "swift-perception" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-perception";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		CE84DDCF08C83A94B1085E10 /* XCRemoteSwiftPackageReference "swift-dependencies" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-dependencies";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09D0FDC9502B20B77CDBE4AD /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE84DDCF08C83A94B1085E10 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		22D64D81FC1727DC7F0B2BDA /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE84DDCF08C83A94B1085E10 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		4F19B87324F5FAA2774C19C8 /* PerceptionCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B10495A8FF91019C9B295433 /* XCRemoteSwiftPackageReference "swift-perception" */;
+			productName = PerceptionCore;
+		};
+		824B10CA89AC68752D061CC2 /* Perception */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B10495A8FF91019C9B295433 /* XCRemoteSwiftPackageReference "swift-perception" */;
+			productName = Perception;
+		};
+		C3474E2E9783CF1345567922 /* Perception */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B10495A8FF91019C9B295433 /* XCRemoteSwiftPackageReference "swift-perception" */;
+			productName = Perception;
+		};
+		D197F4430F68AFF26AA2211C /* CasePaths */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78B0379B68A56E5941DB66CD /* XCRemoteSwiftPackageReference "swift-case-paths" */;
+			productName = CasePaths;
+		};
+		DD271BE9D3D3B09268E12D9C /* PerceptionCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B10495A8FF91019C9B295433 /* XCRemoteSwiftPackageReference "swift-perception" */;
+			productName = PerceptionCore;
+		};
+		EC879E4402E04D8D626D8066 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 606CCED4A038F9B30023947C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		F6F2F2B5D808B254548E04AA /* CasePaths */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78B0379B68A56E5941DB66CD /* XCRemoteSwiftPackageReference "swift-case-paths" */;
+			productName = CasePaths;
+		};
+		FC1EF1EDFE01F46CC82FAADD /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 606CCED4A038F9B30023947C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B8CF25D7A062C305642E3629 /* Project object */;
+}
